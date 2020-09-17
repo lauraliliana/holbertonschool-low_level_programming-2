@@ -1,21 +1,22 @@
 #include <stdio.h>
 /**
- *main - Prints the method
+ *main - Print the method
  *Return: Always 0
  */
 int main(void)
 {
-int a = 0;
-int b = 0;
-while (a <= 9)
+int a;
+for (a = 0; a <= 9; a++)
 {
 putchar(48 + a);
-a++;
-}
-while (b <= 5)
+if (a < 9)
 {
-putchar(97 + b);
-b++;
+putchar(44);
+if (a < 9)
+{
+putchar(32);
+}
+}
 }
 putchar('\n');
 return (0);
