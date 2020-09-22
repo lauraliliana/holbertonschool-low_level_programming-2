@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *main - Prints the method
+ *add - Prints the method
  *@n: int to operate
  *@m: int to operate
  *Return: Always 0
