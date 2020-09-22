@@ -31,7 +31,7 @@ _putchar(32);
 }
 _putchar(p % 10 + '0');
 }
-} 
+}
 _putchar(10);
 }
 }
