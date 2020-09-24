@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *mull - Prints the method
+ *mul - Prints the method
  *@a: Operative integer
  *@b: Operative integer
  *Return: Always 0
