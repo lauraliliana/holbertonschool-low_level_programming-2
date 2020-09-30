@@ -18,6 +18,7 @@ else
 l = (i - 1) / 2;
 l = l + 1;
 }
+i = i - 1;
 while (l <= i)
 {
 _putchar(str[l]);
