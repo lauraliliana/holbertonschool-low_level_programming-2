@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *strstr - check the code for Holberton School students.
+ *_strstr - check the code for Holberton School students.
  *@haystack: string to separate
  *@needle: to find
  * Return: Always 0.
