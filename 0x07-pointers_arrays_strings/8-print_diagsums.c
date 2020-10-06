@@ -1,11 +1,10 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * print_diagsums - prints the sum of the two diagonals of
  * a square matrix of integers
- *
  * @a: matrix
  * @size: size of matrix
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
