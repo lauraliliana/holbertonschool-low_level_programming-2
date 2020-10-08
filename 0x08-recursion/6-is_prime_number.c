@@ -1,4 +1,4 @@
-#include "bootcamp.h"
+#include "holberton.h"
 /**
  * is_prime - helper to check if number is prime
  * @a: number to check
