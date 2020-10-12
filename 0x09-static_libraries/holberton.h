@@ -1,3 +1,7 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+prototype();
+#endif
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
