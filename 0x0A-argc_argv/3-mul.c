@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main - has two arguments
  *@argc: Number of aguments
@@ -7,10 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
-  int i = 0;
-  for (i = 0; i < argc; i++)
-    {
-      printf("%s\n", argv[i]);
-    }
-  return (0);
+if (argc == 3)
+{
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+return (0);
+}
+else
+{
+printf("Error\n");
+return (1);
+}
 }
