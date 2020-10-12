@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *_memcpy - copies string length
- *@dest: string to change
- *@src: string to add
- *@n: number of items in the secont string
+ *main - has two arguments
+ *@argc: Number of aguments
+ *@argv: Array with the argument's names
  *Return: Always 0
  */
 int main (int argc, char* argv[])
