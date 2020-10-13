@@ -14,9 +14,12 @@ return (NULL);
 while (str[j] != '\0')
 j++;
 s = malloc(sizeof(char) * (j + 1));
-for (i = 0; i < j; i++)
+if (s != NULL)
 {
+for (i = 0; i < j; i++)
 s[i] = str[i];
 }
+else
+return (NULL);
 return (s);
 }
