@@ -19,9 +19,14 @@ i++;
 while (s2[j] != '\0')
 j++;
 con = malloc(sizeof(char) * (i + j + 1));
+if (con != NULL)
+{
 for (c = 0; c <= i; c++)
 con[c] = s1[c];
 for (c = 0; c <= j; c++)
 con[i + c] = s2[c];
+}
+else
+return ('\0');
 return (con);
 }
