@@ -21,16 +21,16 @@ i++;
 while (s2[j] != '\0')
 j++;
 if (n >= j)
-n = j + 1;
+n = j;
 con = malloc(sizeof(char) * (i + n + 1));
 if (con != NULL)
 {
 for (c = 0; c <= i; c++)
 con[c] = s1[c];
-for (c = 0; c <= n; c++)
+for (c = 0; c < n; c++)
 con[i + c] = s2[c];
 if (c == n)
-con [i + c + 1] = '\0';
+con [i + c] = '\0';
 }
 else
 return ('\0');
