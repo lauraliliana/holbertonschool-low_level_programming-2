@@ -28,7 +28,7 @@ con[c] = s1[c];
 for (c = 0; c <= n; c++)
 con[i + c] = s2[c];
 if (c == n)
-con [i + c] = '\0';
+con [i + c + 1] = '\0';
 }
 else
 return ('\0');
