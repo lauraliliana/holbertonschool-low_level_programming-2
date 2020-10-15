@@ -21,7 +21,7 @@ i++;
 while (s2[j] != '\0')
 j++;
 if (n >= j)
-n = j;
+n = j + 1;
 con = malloc(sizeof(char) * (i + n + 1));
 if (con != NULL)
 {
