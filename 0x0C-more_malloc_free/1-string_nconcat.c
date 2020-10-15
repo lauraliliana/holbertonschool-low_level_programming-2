@@ -20,7 +20,7 @@ while (s1[i] != '\0')
 i++;
 while (s2[j] != '\0')
 j++;
-con = malloc(sizeof(char) * (i + j + 1));
+con = malloc(sizeof(char) * (i + n + 1));
 if (con != NULL)
 {
 for (c = 0; c <= i; c++)
