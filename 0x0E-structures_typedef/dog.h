@@ -8,7 +8,7 @@
  *
  * Description: Structure dog has 3 members
  */
-struct dog
+struct dog_t
 {
 char *name;
 float age;
