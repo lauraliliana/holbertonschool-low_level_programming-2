@@ -15,12 +15,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
-while (ops[i].op != NULL)
-if (strcmp(ops[i].op, s))
+while ((ops[i].op[0] != s[0]) && (i < 5))
 i++;
-else
 return (ops[i].f);
-
-printf("Error\n");
-exit(99);
 }
